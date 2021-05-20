@@ -336,16 +336,17 @@ nav {
   }
   .search-wrapper {
     width: 100%;
-    margin-left: 20px;
+    margin: 0 10px;
+    padding-left: 10px;
   }
   .cards {
-    margin: 40px 0 0 20px;
+    margin: 40px 0 0 10px;
     width: 100%;
     -ms-flex-pack: distribute;
     justify-content: space-around;
   }
   .cards .card-details {
-    padding: 10px 16px;
+    padding: 0;
   }
   .cards .card-details .caseText {
     font-size: 13px;
@@ -360,7 +361,7 @@ nav {
 }
 
 .time-curve {
-  margin: 0 0.9em 1.5em 0;
+  margin: 0 0.9em 1.5em -0.5em;
   padding: 0.7em 0em 0.7em 1em;
   border-radius: 0.5em;
 }
@@ -371,22 +372,18 @@ nav {
 
 .Confirmed {
   color: #ff4444;
-  background-color: rgba(255, 0, 0, 0.045);
 }
 
 .Active {
   color: #5077f7;
-  background-color: rgba(45, 104, 214, 0.065);
 }
 
 .Recovered {
   color: #3cb959;
-  background-color: rgba(24, 201, 118, 0.062);
 }
 
 .Deceased {
   color: #838383;
-  background-color: #e4e4e436;
 }
 
 /* search */
@@ -594,6 +591,7 @@ nav {
   .resrc-pdf-wrapper .pdf-container {
     display: -ms-grid;
     display: grid;
+
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
   }

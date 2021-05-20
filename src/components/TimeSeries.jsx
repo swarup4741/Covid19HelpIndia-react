@@ -48,7 +48,7 @@ function TimeSeries(props) {
       <XYPlot
         margin={55}
         height={document.body.clientWidth <= 500 ? 400 : 450}
-        width={document.body.clientWidth <= 500 ? 400 : 600}
+        width={document.body.clientWidth <= 500 ? 350 : 600}
         xType="time"
         xDomain={[data[0].x, data[data.length - 1].x]}
         yDomain={[data[0].y, max]}
